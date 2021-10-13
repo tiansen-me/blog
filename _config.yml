@@ -18,14 +18,13 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy                          # the main title
+title: YYQ                          # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: 田森的博客   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  tiansen, tiasen, blog,
+  tiansen's blog
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://blog.tiansen.me'
@@ -55,7 +54,7 @@ google_site_verification: google_meta_tag_verification # change to your verifica
 
 
 google_analytics:
-  id: ''              # fill in your Google Analytics ID
+  id: 'UA-201124937-1'              # fill in your Google Analytics ID
   # Google Analytics pageviews report settings
   pv:
     proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
@@ -82,7 +81,7 @@ theme_mode:   # [light|dark]
 img_cdn: ''
 
 # the avatar on sidebar, support local or CORS resources
-avatar: ''
+avatar: '/assets/ts.jpg'
 
 # boolean type, the global switch for ToC in posts.
 toc: true
