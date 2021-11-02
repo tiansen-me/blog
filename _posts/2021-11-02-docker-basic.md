@@ -100,8 +100,10 @@ ADD指令会令镜像构建缓存失效，从而可能会令镜像构建变得�
 
 * `CMD`容器启动命令
 用法：
-    - CMD <command>
-    - CMD ["<executable file>", "<arg1>", "<arg2>"...]
+```Dockerfile
+    CMD <command>
+    CMD ["<executable file>", "<arg1>", "<arg2>"...]
+```
 
 Docker 不是虚拟机，容器中的应用都应该以前台执行，而不是像虚拟机、物理机里面那样。容器内没有后台服务的概念。
 
@@ -122,6 +124,7 @@ Docker 不是虚拟机，容器中的应用都应该以前台执行，而不是�
 
 * `ARG` 构建参数
 格式：
+
 ```Dockerfile
 ARG <参数名>[=<默认值>]
 ```
