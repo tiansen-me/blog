@@ -109,7 +109,8 @@ Docker 不是虚拟机，容器中的应用都应该以前台执行，而不是�
 
 `ENTERPOINT`和`RUN`一样，分为exec格式和shell格式。
 
-当指定了ENTERPOINT后，CMD的含义就发生了变化，不在是直接执行器命令，而是将CMD的内容作为参数传给ENTERPOINT指令，换句话说实际执行时，变为：
+当指定了ENTERPOINT后，CMD的含义就发生了变化，不在是直接执行器命令，而是将CMD的内容作为参数传给`ENTERPOINT`指令，换句话说实际执行时，变为：
+
 ```Dockerfile
 <ENTERPOINT> "<CMD>"
 ```
