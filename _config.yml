@@ -20,7 +20,7 @@ timezone: Asia/Shanghai
 
 title: YYQ                          # the main title
 
-tagline: tian.sen的小屋  # it will display as the sub-title
+tagline: tian.sen的小窝  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   tiansen, tiasen, blog,
@@ -136,6 +136,7 @@ defaults:
       layout: page
       permalink: /:title/
       dynamic_title: true    # Hide title in mobile screens.
+      sitemap: false
 
 sass:
   style: compressed
