@@ -94,9 +94,12 @@ paginate: 10
 
 # ------------ The following options are not recommended to be modified ------------------
 html-proofer:
+  file_ignore:
+    - _site/slides/google-io-web-2023/index.html
+    - _site/slides/passkey/index.html
   exclude:
     - _site/slides/google-io-web-2023/index.html
-    - _site/slides/**/*
+    - _site/slides/passkey/index.html
 
 kramdown:
   syntax_highlighter: rouge
