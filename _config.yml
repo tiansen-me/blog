@@ -93,7 +93,7 @@ disqus:
 paginate: 10
 
 # ------------ The following options are not recommended to be modified ------------------
-html_proofer:
+html-proofer:
   alt_ignore:
     - _site/slides/**/*
   file_ignore:
