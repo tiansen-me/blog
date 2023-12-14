@@ -96,6 +96,7 @@ paginate: 10
 html-proofer:
   exclude:
     - _site/slides/google-io-web-2023/index.html
+    - _site/slides/passkey/index.html
 
 kramdown:
   syntax_highlighter: rouge
