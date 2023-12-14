@@ -94,6 +94,8 @@ paginate: 10
 
 # ------------ The following options are not recommended to be modified ------------------
 html_proofer:
+  alt_ignore:
+    - _site/slides/**/*
   file_ignore:
     - _site/slides/google-io-web-2023/index.html
     - _site/slides/passkey/index.html
