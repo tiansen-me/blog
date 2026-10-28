@@ -18,13 +18,13 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: TechBytes                          # the main title
+title: CacheMiss                          # the main title
 
-tagline: 记点东西  # it will display as the sub-title
+tagline: 未命中就记下来  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   tiansen, tiasen, blog,
-  tiansen's blog， tech, techBytes
+  tiansen's blog， tech, CacheMiss, 缓存未命中
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://blog.tiansen.me'
