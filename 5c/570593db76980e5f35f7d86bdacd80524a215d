@@ -1,0 +1,16 @@
+_posts/2026-10-30-status-line-tax.md
+  h_630dd44b115116 1-207
+_posts/2026-11-04-cpp26-disapproved-two-votes-short.md
+  h_630dd44b115116 1-193
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "5c570593db76980e5f35f7d86bdacd80524a215d",
+  "prompts": {},
+  "humans": {
+    "h_630dd44b115116": {
+      "author": "Sen Tian <tiansen.me@gmail.com>"
+    }
+  }
+}
