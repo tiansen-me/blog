@@ -1,0 +1,18 @@
+_posts/2026-11-09-agent-memory-curation.md
+  h_630dd44b115116 1-107
+_posts/2026-11-10-byteification-tokenizer-exit-cost.md
+  h_630dd44b115116 1-85
+_posts/2026-11-10-molt-sinai-agent-hospital.md
+  h_630dd44b115116 1-99
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "3e3c9560ef4935cb826f4999f426e1a0650ee766",
+  "prompts": {},
+  "humans": {
+    "h_630dd44b115116": {
+      "author": "Sen Tian <tiansen.me@gmail.com>"
+    }
+  }
+}
